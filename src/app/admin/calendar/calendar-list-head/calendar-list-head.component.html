@@ -1,0 +1,33 @@
+<div class="scale">
+
+    <div class="axe-y">
+        <div class="corner">
+            <div class="parent-period">
+                {{daysAxis[0+this.offset/2].toLocaleString('ru',{month:'long'})
+                +' '+daysAxis[0+this.offset/2].getFullYear()}}
+            </div>
+            <div class="interval">
+                <button (click)="onPreviousPeriod()" class="previous-period"></button>
+                <div class="period">
+                    {{daysAxis[0+offset/2].getDate()}} — {{daysAxis[daysAxis.length-1-offset/2].getDate()}}
+                </div>
+                <button (click)="onNextPeriod()" class="next-period"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="axe-x">
+        <div *ngFor="let date of daysAxis; index as i;">
+            <div class="day" [ngStyle]="{opacity: ((i<offset/2)||(i>daysAxis.length-offset/2-1)) ? '0.3':'1'}">
+                <div class="day_name">
+                    {{this.weekDays.get(date.getDay())}}
+                </div>
+                <div class="day_number">
+                    {{date.getDate()}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<hr>

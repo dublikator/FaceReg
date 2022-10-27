@@ -1,0 +1,93 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.scale{
+  display: flex;
+}
+
+.corner{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.period{
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.parent-period{
+  display: flex;
+  justify-content: center;
+  font-size: 0.812rem;
+  line-height: 1rem;
+  margin-bottom: 11px;
+}
+
+.interval{
+
+  display: flex;
+  justify-content: space-between;
+
+  >*{
+    height: 2rem;
+  }
+
+  button{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    //background-color: white;
+  }
+
+
+}
+
+.previous-period{
+  border: 1px solid #3DC963;
+  background-color: white;
+}
+
+.next-period{
+  border: none;
+  background-color: #C0FFD1;
+}
+
+.scale{
+  width: 100%;
+}
+
+.day {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  >*{
+    display: flex;
+    justify-content: center;
+  }
+
+  &_name {
+    font-weight: 400;
+    font-size: 0.813rem;
+  }
+
+  &_number{
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+}
+
+hr {
+  background-color: #EEEEEE;
+  width: 100%;
+  height: 1px;
+  margin-top: 1.563rem;
+  margin-bottom: 1.875rem;
+}

@@ -1,0 +1,19 @@
+<div class="axe-y">
+    <div class="employee">
+        <img src="" alt="" class="employee__photo">
+        <div class="employee__name">{{employeeCalendar.name}}</div>
+    </div>
+</div>
+<div class="axe-x">
+    <div *ngFor="let calendar of employeeCalendar.calendar; index as i;">
+        <div class="time" [ngStyle]="{opacity: ((i<offset/2)||(i>employeeCalendar.calendar.length-offset/2-1)) ? '0.3':'1'}">
+            <div class="time_plan" (click)="onShiftEdit(calendar)" *ngIf="calendar.shiftPlan">
+                {{calendar.shiftPlan.timeStart + ' / ' + calendar.shiftPlan?.timeEnd}}
+            </div>
+            <div class="time_fact" (click)="onShiftEdit(calendar)" *ngIf="calendar.shiftFact">
+                {{calendar.shiftFact.timeStart + ' / ' + calendar.shiftPlan?.timeEnd}}
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,134 @@
+*{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+:host{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(19,30,20);
+
+}
+
+.oval {
+
+  position: fixed;
+
+  background-color: rgb(36, 36, 36);
+  border-radius: 100%;
+  overflow: hidden;
+
+  width: 79vw;
+  height: 79vw;
+
+}
+
+.photo-box{
+  height: 71vmin;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  clip-path: circle( at 50% 50%);
+}
+
+.btn-block{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  width: 70%;
+  //height: 8%;
+
+  >*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    width: 45%;
+    border: none;
+  }
+
+
+  &_btn1{
+    background-color: #3DC963;
+  }
+
+  &_btn2{
+    background-color: #C93D3D;
+  }
+
+}
+
+.recognize-accept{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  width: 45%;
+  bottom: 11%;
+  height: 16%;
+
+  >*{
+    height: 50%;
+  }
+
+}
+
+.employeeName{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63px;
+
+}
+
+.progress-bar {
+  position: fixed;
+  max-height: 82vmin;
+  max-width: 82vmin;
+}
+
+//.title{
+//
+//  position: fixed;
+//  top: 1%;
+//  margin-left: -21px;
+//
+//  *{
+//    font-weight: 500;
+//    font-size: 1.5rem;
+//  }
+//
+//  img{
+//    margin-right: 3px;
+//    width: 18px;
+//    height: 18px;
+//    object-fit: contain;
+//  }
+//
+//}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+$green1:#C0FFD1;
+
+.content{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:20px;
+
+  width: 22.25rem;
+
+}
+
+.patterns{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  *>{
+
+  }
+
+}
+
+.editMode{
+
+  display: flex;
+  justify-content: space-between;
+
+  >*{
+    flex: 1;
+  }
+
+}
+
+.period{
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+.shift{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  >*{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &_plan{
+    >*{
+      border: 2px solid $green1;
+    }
+  }
+
+  &_fact{
+    >*{
+      border: 2px solid $green1;
+      background: $green1;
+    }
+  }
+
+}
+
+.btn-block{
+
+  display: flex;
+  justify-content: space-between;
+
+  >*{
+    width: 10.5rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: none;
+  }
+
+}
+
+
+

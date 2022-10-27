@@ -1,0 +1,9 @@
+<form action="" class="form" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input placeholder="Имя" type="text" formControlName="first_name">
+    <input placeholder="Фамилия" type="text" formControlName="last_name">
+    <input placeholder="email" type="email" formControlName="email">
+    <input placeholder="Телефон" type="tel" formControlName="phone">
+<!--    <input placeholder="file" type="file" (change)="loadPhotoFromFile()" #file  multiple accept="image/jpg">-->
+    <input placeholder="file" type="file" (change)="loadPhotoFromFile()" #file>
+    <button type="submit">Отправить</button>
+</form>

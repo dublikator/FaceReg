@@ -1,0 +1,28 @@
+<div class="oval">
+</div>
+
+<pp-progress-bar #progressBar class="progress-bar" [delay]="2000"></pp-progress-bar>
+
+<div class="photo-box">
+
+    <video class="photo-box" #video [ngStyle]="{display: state==0 ? 'flex':'none'}"></video>
+    <canvas #canvas [ngStyle]="{display: state!=0 ? 'flex':'none'}"></canvas>
+
+    <div class="recognize-accept">
+        <div #employeeName class="employeeName" [ngStyle]="{visibility: (state==2) || (state==3) ? 'visible':'hidden'}"></div>
+        <div class="btn-block">
+            <button class="btn-block_btn1" (click)="onRecognize()" *ngIf="state==0">
+                Распознать
+            </button>
+            <button class="btn-block_btn1" (click)="onCameIn()" *ngIf="state==2">
+                Я пришел
+            </button>
+            <button class="btn-block_btn1" (click)="onCameOut()" *ngIf="state==3">Я ушел
+            </button>
+            <button class="btn-block_btn2" (click)="onCancel()"
+                    [ngStyle]="{display: (state==2) || (state==3) ? 'flex':'none'}">Это не я
+            </button>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,147 @@
+:host {
+
+  position: relative;
+  display: flex;
+  min-height: 6rem;
+  padding-bottom: 1rem;
+  align-items: center;
+
+}
+
+.content{
+
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding: 0 2rem;
+  &__item{
+    gap:3.75rem;
+  }
+
+}
+
+#main-block{
+  display: inline-grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 7% 75% 18%;
+}
+
+#left-block{
+    text-align: center;
+    justify-items: center;
+    align-items: start;
+    display: inline-grid;
+    grid-template-rows: 138px 46px 55px 427px 35px 35px;
+    row-gap: 2%;
+    height: 100%;
+    border-right: 1px solid #EEEEEE;
+    padding-top: 28px;
+}
+
+#left-block button{
+    border: none;
+    background-color: white;
+}
+
+#center-block{
+  text-align: center;
+  padding-top: 28px;
+}
+
+#right-block{
+  text-align: center;
+  padding-top: 28px;
+}
+
+#right-block button{
+  width: 70%;
+  height: 33px;
+  background: #3DC963;
+  border-radius: 10px;
+  border: 2px #3DC963;
+  color: white;
+  padding-left: 11%;
+}
+
+.add-frame{
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 0.6%;
+}
+
+.top-block{
+  display: inline-grid;
+  text-align: left;
+  margin-left: 7%;
+  align-items: center;
+  grid-template-columns: 25% 3% 65%;
+  width: 93%;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 22px;
+}
+
+.top-block input{
+  border: none;
+}
+
+.users img{
+    background-color: #3DC963;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#bottom-block{
+    margin-top: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.title{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 17% 17% 19% 14% 16% 11%;
+    text-align: left;
+    margin-left: 8%;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.dynamic-table{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 17% 17% 19% 14% 16% 11% 4%;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 8%;
+    padding: 28px 0px 28px 0px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.em_efficiency{
+    color: #35B057;
+    text-align: center;
+}
+
+.em_active{
+    background: #C0FFD1;
+    border-radius: 5px;
+    padding: 2px 2px;
+    width: min-content;
+    height: min-content;
+}
+
+.em_active::after{
+    content: url(/assets/images/em_details.png);
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+
+

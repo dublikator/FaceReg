@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="433859122974316395" datatype="html">
+        <source>Employee link</source>
+        <target>Ссылка для сотрудников</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/admin.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3537701360947660901" datatype="html">
+        <source>Employees</source>
+        <target>Сотрудники</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/admin.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5674286808255988565" datatype="html">
+        <source>Create</source>
+        <target>Создать</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/admin.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee-edit/employee-edit.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <target>Имя</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/admin.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee-edit/employee-edit.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8250054678573492934" datatype="html">
+        <source>Add schedule</source>
+        <target>Добавить расписание</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5162686434580248853" datatype="html">
+        <source>Start</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1241348629231510663" datatype="html">
+        <source>End</source>
+        <target>Конец</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2815002627028548136" datatype="html">
+        <source>start</source>
+        <target>Начать</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="818897639355641099" datatype="html">
+        <source>start vacation</source>
+        <target>Начать отпуск</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3598991919872272213" datatype="html">
+        <source>icn</source>
+        <target>включить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="517843663917688276" datatype="html">
+        <source>clear</source>
+        <target>очистить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5311158039936530608" datatype="html">
+        <source>exc</source>
+        <target>исключить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/add-schedule/add-schedule.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1029122298839770722" datatype="html">
+        <source>reset</source>
+        <target>сбросить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/calendar/calendar.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3916778844978053306" datatype="html">
+        <source>New employee</source>
+        <target>Новый сотрудник</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee-edit/employee-edit.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2159130950882492111" datatype="html">
+        <source>Cancel</source>
+        <target>Отмена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee-edit/employee-edit.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1980587275806402637" datatype="html">
+        <source> Take shoot </source>
+        <target>Сделать снимок</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861689370864675722" datatype="html">
+        <source> Load files </source>
+        <target>Загрузить файлы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/admin/employee/employee.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Главная</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5041354590769758251" datatype="html">
+        <source>Admin</source>
+        <target>Админка</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2949848596707725099" datatype="html">
+        <source>Sign out</source>
+        <target>Выйти</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5207635742003539443" datatype="html">
+        <source>Sign in</source>
+        <target>Войти</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/login/login.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3301086086650990787" datatype="html">
+        <source>Register</source>
+        <target>Зарегистрироваться</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/login/login.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5037437391296624618" datatype="html">
+        <source>Information</source>
+        <target>Информация</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6759205696902713848" datatype="html">
+        <source>Warning</source>
+        <target>Внимание</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1519954996184640001" datatype="html">
+        <source>Error</source>
+        <target>Ошибка</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2825920487692688919" datatype="html">
+        <source>You browser not support any media devices</source>
+        <target>Ваш браузер не поддерживает медиа-устройства</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7502736266084413144" datatype="html">
+        <source>For further work, permission to use the video camera is required</source>
+        <target>Для дальнейшей работы необходимо дать разрешение на работу с видекамерой</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6340655708977578501" datatype="html">
+        <source>There are no cameras available</source>
+        <target>Не найдено доступных видекамер</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8998179362936748717" datatype="html">
+        <source>OK</source>
+        <target>Да</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/core/dialog/dialog.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <target>Логин</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <target>Пароль</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/login/login.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/register/register.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2373053046085398641" datatype="html">
+        <source>It&apos;s not me</source>
+        <target>Это не я</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/check-in/check-in.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9029210817303167262" datatype="html">
+        <source>checkin</source>
+        <target>Я пришел</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/check-in/check-in.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7718226480438545514" datatype="html">
+        <source>checkout</source>
+        <target>Я ушел</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/check-in/check-in.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5008833896109514191" datatype="html">
+        <source> Recognize </source>
+        <target> Отметиться </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/public.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3161539560398108118" datatype="html">
+        <source> Recognize (debug) </source>
+        <target> Отметиться (отладка) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/public.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2522493852603264418" datatype="html">
+        <source>Recognize (file)</source>
+        <target>Отметиться (файл)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/public.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6516915870186773495" datatype="html">
+        <source>Recognize (file debug)</source>
+        <target>Отметиться (файл отладка)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/public.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4819320290639669173" datatype="html">
+        <source>shoot</source>
+        <target>снимок</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/public/public.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4640571989326953853" datatype="html">
+        <source>Company name</source>
+        <target>Наименоваине компании</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/register/register.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6542676228301148432" datatype="html">
+        <source>login</source>
+        <target>логин</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/register/register.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

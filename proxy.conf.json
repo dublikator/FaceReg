@@ -1,0 +1,10 @@
+{
+  "/api/v1": {
+    "target": "https://92.241.229.12:4050",
+    "secure": false
+  },
+  "/docs": {
+    "target": "https://92.241.229.12:4050",
+    "secure": false
+  }
+}

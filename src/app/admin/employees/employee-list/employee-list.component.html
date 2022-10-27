@@ -1,0 +1,16 @@
+<div id="center-block">
+<div class="top-block">
+    <h2>Сотрудники</h2><img src="./assets/images/search.svg"><input class="search" placeholder="Поиск по сотруднику">
+</div>
+
+<div id="right-block">
+    <button class="btnAdd" (click)="onAdd()"><img class="add-frame" src="./assets/images/add_user.png">Добавить</button>
+</div>
+
+</div>
+
+<div class="content">
+    <cdk-virtual-scroll-viewport itemSize="96" class="list">
+        <pp-employee-list-item *cdkVirtualFor="let item of dataSource;" [data]="item" (click)="onSelectItem(item)"></pp-employee-list-item>
+    </cdk-virtual-scroll-viewport>
+</div>

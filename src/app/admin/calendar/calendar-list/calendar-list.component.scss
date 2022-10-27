@@ -1,0 +1,28 @@
+.table{
+  width: 100%;
+}
+
+.axe-y{
+  display: flex;
+  min-width: 13.375rem;
+  min-height: 100%;
+}
+
+.axe-x{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 10;
+  min-height: 100%;
+
+  >*{
+    margin: 0 1rem;
+    min-width: 5.75rem;
+  }
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}

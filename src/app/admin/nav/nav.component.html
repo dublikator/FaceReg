@@ -1,0 +1,15 @@
+<div class="up">
+    <div class="ellipse"></div>
+    <div class="link-group">
+        <a class="link-group_home-not-active" [routerLink]="['./home']" routerLinkActive="link-group_home-active"></a>
+        <a class="link-group_employee-not-active" [routerLink]="['./employees']" routerLinkActive="link-group_employee-active"></a>
+        <a class="link-group_calendar-not-active" routerLinkActive="link-group_calendar-active"></a>
+    </div>
+</div>
+
+<div class="down">
+    <div class="link-group">
+        <a class="link-group_profile-not-active"></a>
+        <a class="link-group_logout" href="#" (click)="onLogout()"></a>
+    </div>
+</div>

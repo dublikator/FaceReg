@@ -1,0 +1,45 @@
+<div class="content">
+
+
+    <div class="period">
+        <input type="date" [value]="[this.data.calendar.date]" (input)="onPeriodEdit()">
+        <input type="date" [value]="[this.data.calendar.date]" (input)="onPeriodEdit()">
+    </div>
+
+    <mat-button-toggle-group [(ngModel)]="mode" aria-label="mode" class="editMode">
+        <mat-button-toggle value="EditTime">изменить время</mat-button-toggle>
+        <mat-button-toggle value="ApplyPattern">применить график</mat-button-toggle>
+    </mat-button-toggle-group>
+
+
+    <div class="patterns" *ngIf="mode == 'ApplyPattern'">
+        <mat-select>
+            <mat-option *ngFor="let food of foods" [value]="food.value">
+                {{food.viewValue}}
+            </mat-option>
+        </mat-select>
+
+        <mat-select>
+            <mat-option *ngFor="let food of foods" [value]="food.value">
+                {{food.viewValue}}
+            </mat-option>
+        </mat-select>
+    </div>
+
+    <div class="shift" *ngIf="mode == 'EditTime'">
+        <div class="shift_plan">
+            <input type="time">
+            <input type="time">
+        </div>
+        <div class="shift_fact">
+            <input type="time">
+            <input type="time">
+        </div>
+    </div>
+
+    <div class="btn-block">
+        <button class="g-green-1">Применить</button>
+        <button class="g-red-1">Отменить</button>
+    </div>
+
+</div>

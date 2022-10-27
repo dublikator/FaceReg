@@ -1,0 +1,17 @@
+@use '@angular/material' as mat
+
+$primary-palette: (50: #fae9e7, 100: #fecdbd, 200: #fdad92, 300: #fd8e67, 400: #fc7545, 500: #fc5f25, 600: #f15821, 700: #e3511c, 800: #d54b19, 900: #bc3e11, contrast: (50:white, 100: white, 200: white, 300: white, 400: white, 500: black, 600: black, 700: black, 800: black, 900: black))
+$accent-palette: (50: #e1f5ff, 100: #b3e6ff, 200: #81d6ff, 300: #4cc5ff, 400: #21b9ff, 500: #00acfe, 600: #009eef, 700: #008ada, 800: #0079c6, 900: #0759a3, contrast: (50: white, 100: white, 200: white, 300: white, 400: white, 500: black, 600: black, 700: black, 800: black, 900: black))
+
+@include mat.core()
+
+$primary: mat.define-palette($primary-palette, 600, 400, 700)
+$accent: mat.define-palette($accent-palette, 400, 200, 600)
+$custom-theme: mat.define-light-theme($primary, $accent)
+
+
+@include mat.core-theme($custom-theme)
+@include mat.input-theme($custom-theme)
+@include mat.form-field-theme($custom-theme)
+@include mat.button-theme($custom-theme)
+@include mat.dialog-theme($custom-theme)

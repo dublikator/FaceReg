@@ -1,0 +1,12 @@
+<div class="header">
+    <h2>
+        Календарь
+    </h2>
+</div>
+
+<div class="content">
+    <div class="table">
+        <pp-calendar-list-head [offset]="4" (onPeriodChange)="onPeriodChange($event)"></pp-calendar-list-head>
+        <pp-calendar-list-item [offset]="4" *ngFor="let employeeCalendar of employeesCalendars" [employeeCalendar]="employeeCalendar"></pp-calendar-list-item>
+    </div>
+</div>

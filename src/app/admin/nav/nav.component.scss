@@ -1,0 +1,103 @@
+*{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+:host{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 5rem;
+  height: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+  >*{
+    flex: 1;
+  }
+
+  .up{
+    justify-content: flex-start;
+  }
+
+  .down{
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+
+}
+
+$notActiveColor:#FAFAFA;
+$activeColor:#3DC963;
+
+.link-group{
+
+  >*{
+    margin:0.5rem 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &_home-not-active{
+    background-image: url("/assets/images/homeBlack.png");
+    background-color: $notActiveColor;
+  }
+
+  &_home-active{
+    background-image: url("/assets/images/homeWhite.png");
+    background-color: $activeColor;
+  }
+
+  &_employee-not-active{
+    background-image: url("/assets/images/employeeBlack.png");
+    background-color: $notActiveColor;
+  }
+
+  &_employee-active{
+    background-image: url("/assets/images/employeeWhite.png");
+    background-color: $activeColor;
+  }
+
+  &_calendar-not-active{
+    background-image: url("/assets/images/calendarBlack.png");
+    background-color: $notActiveColor;
+  }
+
+  &_calendar-active{
+    background-image: url("/assets/images/calendarWhite.png");
+    background-color: $activeColor;
+  }
+
+  &_profile-not-active{
+    background-image: url("/assets/images/profileBlack.png");
+    background-color: $notActiveColor;
+  }
+
+  &_profile-active{
+    background-image: url("/assets/images/profileWhite.png");
+    background-color: $activeColor;
+  }
+
+  &_logout{
+    background-image: url("/assets/images/logout.png");
+  }
+
+}
+
+.ellipse{
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/ellipseDark.png");
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.375rem;
+  margin-bottom: 5.062rem;
+}
